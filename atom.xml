@@ -6,7 +6,7 @@
   <link href="https://jerryfaraday.github.io/atom.xml" rel="self"/>
   
   <link href="https://jerryfaraday.github.io/"/>
-  <updated>2023-10-04T16:17:27.955Z</updated>
+  <updated>2023-10-05T07:26:30.569Z</updated>
   <id>https://jerryfaraday.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git代理设置</title>
+    <link href="https://jerryfaraday.github.io/2023/10/05/git-proxy/"/>
+    <id>https://jerryfaraday.github.io/2023/10/05/git-proxy/</id>
+    <published>2023-10-05T07:26:30.569Z</published>
+    <updated>2023-10-05T07:26:30.569Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Git设置代理"><a href="#Git设置代理" class="headerlink" title="Git设置代理"></a>Git设置代理</h1><p>鉴于笔者在一个月内两次分别在MacOS和Windows和终端斗智斗勇，未避免可预见的未来在Linux上复现这一情况，写个blog记录下</p><h2 id="设置-HTTP-HTTPS-代理"><a href="#设置-HTTP-HTTPS-代理" class="headerlink" title="设置 HTTP&#x2F;HTTPS 代理"></a>设置 HTTP&#x2F;HTTPS 代理</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git config --global --add http.proxy localhost:7890</span><br><span class="line">git config --global --add http.sslVerify false</span><br><span class="line">git config --global --add https.proxy localhost:7890</span><br><span class="line">git config --global --add https.sslVerify false</span><br></pre></td></tr></table></figure><h2 id="设置-socks5-代理"><a href="#设置-socks5-代理" class="headerlink" title="设置 socks5 代理"></a>设置 socks5 代理</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git config --global --add http.proxy socks5://localhost:1080</span><br><span class="line">git config --global --add http.sslVerify false</span><br><span class="line">git config --global --add https.proxy socks5://localhost:1080</span><br><span class="line">git config --global --add https.sslVerify false</span><br></pre></td></tr></table></figure><h2 id="取消代理设置"><a href="#取消代理设置" class="headerlink" title="取消代理设置"></a>取消代理设置</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git config --global --unset http.proxy</span><br><span class="line">git config --global --unset http.sslVerify</span><br><span class="line">git config --global --unset https.proxy</span><br><span class="line">git config --global --unset https.sslVerify</span><br></pre></td></tr></table></figure><p>若曾设置过多个代理</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global --unset-all http.proxy</span><br><span class="line">git config --global --unset-all https.proxy</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Git设置代理&quot;&gt;&lt;a href=&quot;#Git设置代理&quot; class=&quot;headerlink&quot; title=&quot;Git设置代理&quot;&gt;&lt;/a&gt;Git设置代理&lt;/h1&gt;&lt;p&gt;鉴于笔者在一个月内两次分别在MacOS和Windows和终端斗智斗勇，未避免可预见的未来在Linux</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
