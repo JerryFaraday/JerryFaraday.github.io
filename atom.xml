@@ -6,7 +6,7 @@
   <link href="https://jerryfaraday.github.io/atom.xml" rel="self"/>
   
   <link href="https://jerryfaraday.github.io/"/>
-  <updated>2023-10-05T13:07:00.227Z</updated>
+  <updated>2023-10-05T13:11:27.781Z</updated>
   <id>https://jerryfaraday.github.io/</id>
   
   <author>
@@ -15,26 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://jerryfaraday.github.io/2023/10/05/hello-world/"/>
-    <id>https://jerryfaraday.github.io/2023/10/05/hello-world/</id>
-    <published>2023-10-05T13:07:00.227Z</published>
-    <updated>2023-10-05T13:07:00.227Z</updated>
-    
-    <content type="html"><![CDATA[<p>\begin{equation}<br>\left{<br>\begin{array}{lr}<br>x&#x3D;\dfrac{3\pi}{2}(1+2t)\cos(\dfrac{3\pi}{2}(1+2t))<br>\end{array}<br>\right.<br>\end{equation}</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&#92;begin{equation}&lt;br&gt;&#92;left{&lt;br&gt;&#92;begin{array}{lr}&lt;br&gt;x&amp;#x3D;&#92;dfrac{3&#92;pi}{2}(1+2t)&#92;cos(&#92;dfrac{3&#92;pi}{2}(1+2t))&lt;br&gt;&#92;end{array}&lt;br&gt;&#92;right.&lt;br&gt;&#92;</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Git代理设置</title>
