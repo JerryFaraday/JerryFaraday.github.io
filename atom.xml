@@ -6,7 +6,7 @@
   <link href="https://jerryfaraday.github.io/atom.xml" rel="self"/>
   
   <link href="https://jerryfaraday.github.io/"/>
-  <updated>2023-10-16T09:43:45.398Z</updated>
+  <updated>2023-10-16T12:37:57.405Z</updated>
   <id>https://jerryfaraday.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://jerryfaraday.github.io/2023/10/16/RoboMaster-Robots-Overview/"/>
     <id>https://jerryfaraday.github.io/2023/10/16/RoboMaster-Robots-Overview/</id>
     <published>2023-10-16T09:00:00.000Z</published>
-    <updated>2023-10-16T09:43:45.398Z</updated>
+    <updated>2023-10-16T12:37:57.405Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="RoboMaster机器人概述"><a href="#RoboMaster机器人概述" class="headerlink" title="RoboMaster机器人概述"></a>RoboMaster机器人概述</h1><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>考虑到队伍传承及发展需要，笔者于近期开始着手准备编写第一版《鸿雁战队机器人知识库》，着重从机械结构方案角度分析各方案的优劣。由于笔者并非机械类专业学生，机械相关专业知识较为薄弱，此文档仅供实验室内部成员参考，所有观点仅为笔者一家之言，请各位读者以辩证的思维阅读，也欢迎大家就内容与笔者进行沟通。</p><p>以下所有机构来源包括但不限于：RoboMaster论坛机械开源、RoboMaster论坛技术文档开源、RoboMaster青工会视频资料、B站开源、各种途径的机器人照片等，由于部分结构来源过于随意，下文描述或许与该结构实际情况有所出入，一切请以实际为准。</p><h1 id="步兵机器人"><a href="#步兵机器人" class="headerlink" title="步兵机器人"></a>步兵机器人</h1><h1 id="英雄机器人"><a href="#英雄机器人" class="headerlink" title="英雄机器人"></a>英雄机器人</h1><h1 id="工程机器人"><a href="#工程机器人" class="headerlink" title="工程机器人"></a>工程机器人</h1><h1 id="哨兵机器人"><a href="#哨兵机器人" class="headerlink" title="哨兵机器人"></a>哨兵机器人</h1><h1 id="空中机器人"><a href="#空中机器人" class="headerlink" title="空中机器人"></a>空中机器人</h1><h1 id="飞镖系统"><a href="#飞镖系统" class="headerlink" title="飞镖系统"></a>飞镖系统</h1><h1 id="雷达站"><a href="#雷达站" class="headerlink" title="雷达站"></a>雷达站</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="RoboMaster机器人概述"><a href="#RoboMaster机器人概述" class="headerlink" title="RoboMaster机器人概述"></a>RoboMaster机器人概述</h1><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>考虑到队伍传承及发展需要，笔者于近期开始着手准备编写第一版《鸿雁战队机器人知识库》，着重从机械结构方案角度分析各方案的优劣。由于笔者并非机械类专业学生，机械相关专业知识较为薄弱，此文档仅供实验室内部成员参考，所有观点仅为笔者一家之言，请各位读者以辩证的思维阅读，也欢迎大家就内容与笔者进行沟通。</p><p>以下所有机构来源包括但不限于：RoboMaster论坛机械开源、RoboMaster论坛技术文档开源、RoboMaster青工会视频资料、B站开源、各种途径的机器人照片等，由于部分结构来源过于随意，下文描述或许与该结构实际情况有所出入，一切请以实际为准。</p><h1 id="步兵机器人"><a href="#步兵机器人" class="headerlink" title="步兵机器人"></a>步兵机器人</h1><p>步兵机器人作为RM赛场上最传统的兵种之一，从2015年开始变一直出现在赛场上。由于前文描述的原因，在此仅讨论2020赛季往后的步兵机器人。</p><p>2020赛季上交开源了他们的步兵机器人，其中该机器人的“交头”（云台+发射）由于本身设计足够优秀，在后续几个赛季中被大量队伍参考，也衍生了很多优秀的开源&#x2F;设计，包括2021赛季亮哥开源的平衡步兵等。</p><h1 id="英雄机器人"><a href="#英雄机器人" class="headerlink" title="英雄机器人"></a>英雄机器人</h1><h1 id="工程机器人"><a href="#工程机器人" class="headerlink" title="工程机器人"></a>工程机器人</h1><h1 id="哨兵机器人"><a href="#哨兵机器人" class="headerlink" title="哨兵机器人"></a>哨兵机器人</h1><h1 id="空中机器人"><a href="#空中机器人" class="headerlink" title="空中机器人"></a>空中机器人</h1><h1 id="飞镖系统"><a href="#飞镖系统" class="headerlink" title="飞镖系统"></a>飞镖系统</h1><h1 id="雷达站"><a href="#雷达站" class="headerlink" title="雷达站"></a>雷达站</h1>]]></content>
     
     
       
