@@ -19,15 +19,15 @@
         <meta name="keywords" content="hexo,hexo-theme,hexo-blog">
     
     <meta name="description" content="">
-    <meta name="description" content="RoboMaster机器人概述写在前面考虑到队伍传承及发展需要，笔者于近期开始着手准备编写第一版《鸿雁战队机器人知识库》，着重从机械结构方案角度分析各方案的优劣。由于笔者并非机械类专业学生，机械相关专业知识较为薄弱，此文档仅供实验室内部成员参考，所有观点仅为笔者一家之言，请各位读者以辩证的思维阅读，也欢迎大家就内容与笔者进行沟通。 以下所有机构来源包括但不限于：RoboMaster论坛机械开源、R">
+    <meta name="description" content="雷达站">
 <meta property="og:type" content="article">
-<meta property="og:title" content="RoboMaster机器人概述">
-<meta property="og:url" content="https://jerryfaraday.github.io/2023/10/16/RoboMaster-Robots-Overview/index.html">
+<meta property="og:title" content="RoboMaster 雷达站">
+<meta property="og:url" content="https://jerryfaraday.github.io/2023/10/16/RoboMaster-Radar-Overview/index.html">
 <meta property="og:site_name" content="JerryFaraday&#96;s Blog">
-<meta property="og:description" content="RoboMaster机器人概述写在前面考虑到队伍传承及发展需要，笔者于近期开始着手准备编写第一版《鸿雁战队机器人知识库》，着重从机械结构方案角度分析各方案的优劣。由于笔者并非机械类专业学生，机械相关专业知识较为薄弱，此文档仅供实验室内部成员参考，所有观点仅为笔者一家之言，请各位读者以辩证的思维阅读，也欢迎大家就内容与笔者进行沟通。 以下所有机构来源包括但不限于：RoboMaster论坛机械开源、R">
+<meta property="og:description" content="雷达站">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-10-16T09:00:00.000Z">
-<meta property="article:modified_time" content="2023-10-16T12:37:57.405Z">
+<meta property="article:published_time" content="2023-10-16T12:00:00.000Z">
+<meta property="article:modified_time" content="2023-10-16T13:02:43.461Z">
 <meta property="article:author" content="JerryFaraday">
 <meta property="article:tag" content="RM">
 <meta property="article:tag" content="mechanical">
@@ -36,7 +36,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link rel="icon" href="/assets/favicon.ico">
     
-    <title>RoboMaster机器人概述 · JerryFaraday&#39;s Blog</title>
+    <title>RoboMaster 雷达站 · JerryFaraday&#39;s Blog</title>
     <!-- /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
 /* This file is meant as a standalone workflow for
 - testing support for link[rel=preload]
@@ -263,7 +263,7 @@
                 <a href="/">JerryFaraday&#39;s Blog</a>
             </div>
             <div class="post-title header-element">
-                <a href="#" class="post-name">RoboMaster机器人概述</a>
+                <a href="#" class="post-name">RoboMaster 雷达站</a>
             </div>
         </div>
     
@@ -309,7 +309,7 @@
         <h1 class="intro-title">
             <!-- 主页  -->
             
-                RoboMaster机器人概述
+                RoboMaster 雷达站
             <!-- 404 -->
             
         </h1>
@@ -339,7 +339,7 @@
                 <!-- 文章字数统计 -->
                 
                     <div class="post-intro-read">
-                        <span>字数统计: <span class="post-count word-count">410</span>阅读时长: <span class="post-count reading-time">1 min</span></span>
+                        <span>字数统计: <span class="post-count word-count">3</span>阅读时长: <span class="post-count reading-time">1 min</span></span>
                     </div>
                 
                 <div class="post-intro-meta">
@@ -500,11 +500,7 @@
             <div class="container container-unloaded">
                 <main class="main post-page">
     <article class="article-entry">
-        <h1 id="RoboMaster机器人概述"><a href="#RoboMaster机器人概述" class="headerlink" title="RoboMaster机器人概述"></a>RoboMaster机器人概述</h1><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>考虑到队伍传承及发展需要，笔者于近期开始着手准备编写第一版《鸿雁战队机器人知识库》，着重从机械结构方案角度分析各方案的优劣。由于笔者并非机械类专业学生，机械相关专业知识较为薄弱，此文档仅供实验室内部成员参考，所有观点仅为笔者一家之言，请各位读者以辩证的思维阅读，也欢迎大家就内容与笔者进行沟通。</p>
-<p>以下所有机构来源包括但不限于：RoboMaster论坛机械开源、RoboMaster论坛技术文档开源、RoboMaster青工会视频资料、B站开源、各种途径的机器人照片等，由于部分结构来源过于随意，下文描述或许与该结构实际情况有所出入，一切请以实际为准。</p>
-<h1 id="步兵机器人"><a href="#步兵机器人" class="headerlink" title="步兵机器人"></a>步兵机器人</h1><p>步兵机器人作为RM赛场上最传统的兵种之一，从2015年开始变一直出现在赛场上。由于前文描述的原因，在此仅讨论2020赛季往后的步兵机器人。</p>
-<p>2020赛季上交开源了他们的步兵机器人，其中该机器人的“交头”（云台+发射）由于本身设计足够优秀，在后续几个赛季中被大量队伍参考，也衍生了很多优秀的开源&#x2F;设计，包括2021赛季亮哥开源的平衡步兵等。</p>
-<h1 id="英雄机器人"><a href="#英雄机器人" class="headerlink" title="英雄机器人"></a>英雄机器人</h1><h1 id="工程机器人"><a href="#工程机器人" class="headerlink" title="工程机器人"></a>工程机器人</h1><h1 id="哨兵机器人"><a href="#哨兵机器人" class="headerlink" title="哨兵机器人"></a>哨兵机器人</h1><h1 id="空中机器人"><a href="#空中机器人" class="headerlink" title="空中机器人"></a>空中机器人</h1><h1 id="飞镖系统"><a href="#飞镖系统" class="headerlink" title="飞镖系统"></a>飞镖系统</h1><h1 id="雷达站"><a href="#雷达站" class="headerlink" title="雷达站"></a>雷达站</h1>
+        <h1 id="雷达站"><a href="#雷达站" class="headerlink" title="雷达站"></a>雷达站</h1>
     </article>
     <!-- license -->
     
@@ -516,8 +512,8 @@
         <li class="previous">
             
                 <div class="prevSlogan">Previous Post</div>
-                <a href="/2023/10/05/git-proxy/" title="Git代理设置">
-                    <div class="prevTitle">Git代理设置</div>
+                <a href="/2023/10/16/RoboMaster-Dart%20System-Overview/" title="RoboMaster 飞镖系统">
+                    <div class="prevTitle">RoboMaster 飞镖系统</div>
                 </a>
             
         </li>
@@ -662,7 +658,7 @@
                 <div class="toc-catalog">
                     <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
                 </div>
-                <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#RoboMaster%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%A6%82%E8%BF%B0"><span class="toc-number">1.</span> <span class="toc-text">RoboMaster机器人概述</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2"><span class="toc-number">1.1.</span> <span class="toc-text">写在前面</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%AD%A5%E5%85%B5%E6%9C%BA%E5%99%A8%E4%BA%BA"><span class="toc-number">2.</span> <span class="toc-text">步兵机器人</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%8B%B1%E9%9B%84%E6%9C%BA%E5%99%A8%E4%BA%BA"><span class="toc-number">3.</span> <span class="toc-text">英雄机器人</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B7%A5%E7%A8%8B%E6%9C%BA%E5%99%A8%E4%BA%BA"><span class="toc-number">4.</span> <span class="toc-text">工程机器人</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%93%A8%E5%85%B5%E6%9C%BA%E5%99%A8%E4%BA%BA"><span class="toc-number">5.</span> <span class="toc-text">哨兵机器人</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%A9%BA%E4%B8%AD%E6%9C%BA%E5%99%A8%E4%BA%BA"><span class="toc-number">6.</span> <span class="toc-text">空中机器人</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%A3%9E%E9%95%96%E7%B3%BB%E7%BB%9F"><span class="toc-number">7.</span> <span class="toc-text">飞镖系统</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%9B%B7%E8%BE%BE%E7%AB%99"><span class="toc-number">8.</span> <span class="toc-text">雷达站</span></a></li></ol>
+                <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%9B%B7%E8%BE%BE%E7%AB%99"><span class="toc-number">1.</span> <span class="toc-text">雷达站</span></a></li></ol>
             </div>
         
         <!-- sidebar -->
@@ -686,7 +682,89 @@
         
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
     
@@ -695,7 +773,7 @@
     
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 2
+        Total : 10
         </div>
         <!-- search  -->
         
@@ -712,7 +790,55 @@
         
         <li class="archive-post-item">
             <span class="archive-post-date">10/16</span>
-            <a class="archive-post-title" href="/2023/10/16/RoboMaster-Robots-Overview/">RoboMaster机器人概述</a>
+            <a class="archive-post-title" href="/2023/10/16/RoboMaster-Radar-Overview/">RoboMaster 雷达站</a>
+        </li>
+    
+        
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/16</span>
+            <a class="archive-post-title" href="/2023/10/16/RoboMaster-Dart%20System-Overview/">RoboMaster 飞镖系统</a>
+        </li>
+    
+        
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/16</span>
+            <a class="archive-post-title" href="/2023/10/16/RoboMaster-Aerial-Robots-Overview/">RoboMaster 空中机器人</a>
+        </li>
+    
+        
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/16</span>
+            <a class="archive-post-title" href="/2023/10/16/RoboMaster-Sentry-Robots-Overview/">RoboMaster 哨兵机器人</a>
+        </li>
+    
+        
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/16</span>
+            <a class="archive-post-title" href="/2023/10/16/RoboMaster-Engineer-Robots-Overview/">RoboMaster 工程机器人</a>
+        </li>
+    
+        
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/16</span>
+            <a class="archive-post-title" href="/2023/10/16/RoboMaster-Hero-Robots-Overview/">RoboMaster 英雄机器人</a>
+        </li>
+    
+        
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/16</span>
+            <a class="archive-post-title" href="/2023/10/16/RoboMaster-Balancing-Standard-Robots-Overview/">RoboMaster 平衡步兵机器人</a>
+        </li>
+    
+        
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/16</span>
+            <a class="archive-post-title" href="/2023/10/16/RoboMaster-Standard-Robots-Overview/">RoboMaster 普通步兵机器人</a>
+        </li>
+    
+        
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/16</span>
+            <a class="archive-post-title" href="/2023/10/16/RoboMaster-All-Robots-Overview/">RoboMaster 机器人概述</a>
         </li>
     
         
