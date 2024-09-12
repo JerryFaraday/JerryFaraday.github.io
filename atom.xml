@@ -6,7 +6,7 @@
   <link href="https://jerryfaraday.github.io/atom.xml" rel="self"/>
   
   <link href="https://jerryfaraday.github.io/"/>
-  <updated>2024-04-18T12:30:00.000Z</updated>
+  <updated>2024-06-06T18:30:00.000Z</updated>
   <id>https://jerryfaraday.github.io/</id>
   
   <author>
@@ -17,13 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Windows11设置</title>
+    <link href="https://jerryfaraday.github.io/2024/06/07/Windows11/"/>
+    <id>https://jerryfaraday.github.io/2024/06/07/Windows11/</id>
+    <published>2024-06-06T18:30:00.000Z</published>
+    <updated>2024-06-06T18:30:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Windows11-安装跳过联网步骤"><a href="#Windows11-安装跳过联网步骤" class="headerlink" title="Windows11 安装跳过联网步骤"></a>Windows11 安装跳过联网步骤</h1><ol><li>按下<code>Shift+F10</code>或是<code>Fn+Shift+F10</code>快捷键调出命令提示符窗口；</li><li>在 cmd 界面中，输入 cd 命令切换目录：<code>cd C:\Windows\System32\oobe\</code></li><li>执行<code>BypassNRO.cmd</code>，系统会自动重新启动，随后便可增加暂时不联网选项</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Windows11-安装跳过联网步骤&quot;&gt;&lt;a href=&quot;#Windows11-安装跳过联网步骤&quot; class=&quot;headerlink&quot; title=&quot;Windows11 安装跳过联网步骤&quot;&gt;&lt;/a&gt;Windows11 安装跳过联网步骤&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;</summary>
+      
+    
+    
+    
+    <category term="Shell" scheme="https://jerryfaraday.github.io/categories/Shell/"/>
+    
+    
+    <category term="Windows" scheme="https://jerryfaraday.github.io/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo 自整理文档</title>
     <link href="https://jerryfaraday.github.io/2024/04/18/Hexo%E2%80%98s_Docs/"/>
     <id>https://jerryfaraday.github.io/2024/04/18/Hexo%E2%80%98s_Docs/</id>
     <published>2024-04-18T12:30:00.000Z</published>
     <updated>2024-04-18T12:30:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>&emsp;&emsp;由于<a href="https://hexo.io/zh-cn/docs/">Hexo官网文档</a>实在过于混乱，且绝大部分内容长期未更新，阅读起来实在折磨，因此打算稍微整理下我需要的内容，方便我之后看。</p><h1 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>&emsp;&emsp;由于<a href="https://hexo.io/zh-cn/docs/">Hexo官网文档</a>实在过于混乱，且绝大部分内容长期未更新，阅读起来属实折磨，因此打算稍微整理下我需要的内容，方便我日后有需求时自己查阅。</p><h1 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h1>]]></content>
     
     
       
@@ -103,7 +128,7 @@
     <published>2023-10-21T16:00:00.000Z</published>
     <updated>2023-10-21T19:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>&emsp;&emsp;作为一个“倒霉”的队长，在北邮的这三年队长生涯中，我始终无法找到一位在竞技机器人机械设计领域实力强于我的队员，因此被迫在连任队长的同时兼任机械组组长三年。为了纪念我这三年极其苦逼的机械组组长经历，我决定新建一份随记，将随记由一个文档升为一个系列继续写下去。当然我也不知道接下来的随记会是什么，以及这些随记大概什么时候才能完结，毕竟我开第二篇随记（即本篇）的时候第一篇应该连10%都没有完成（笑）。</p><h1 id="第一章：机械组组长的职责和意义"><a href="#第一章：机械组组长的职责和意义" class="headerlink" title="第一章：机械组组长的职责和意义"></a>第一章：机械组组长的职责和意义</h1><p>&emsp;&emsp;结构与第一篇随记相同，在开头先讨论下机械组组长的职责和意义。</p><p>&emsp;&emsp;不同于队长于队内属于“万人之上，一至五人之下”的地位，机械组组长在队内的定位十分诡异。不同于另外三个技术组别，机械组本身的组内任务实在谈不上和码有关联，实际上我觉得机械设计在某些程度上和运营组的关系或许会更大一些，毕竟绝大部分“码农”或许很难理解，为什么通常是做内容产出，在已知任务量的情况下，电控、视觉、硬件均能相对准确的给出任务完成时间，而机械组却只能给出一个大概时间，且这个时间还很有可能会被延期又延期。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>&emsp;&emsp;作为一个“倒霉”的队长，在北邮的这三年队长生涯中，我始终无法找到一位在竞技机器人机械设计领域实力强于我的队员，因此被迫在连任队长的同时兼任机械组组长三年。为了纪念我这三年极其苦逼的机械组组长经历，我决定新建一份随记，将随记由一个文档升为一个系列继续写下去。当然我也不知道接下来的随记会是什么，以及这些随记大概什么时候才能完结，毕竟我开第二篇随记（即本篇）的时候第一篇应该连10%都没有完成（笑）。</p><h1 id="第一章：机械组组长的职责和意义"><a href="#第一章：机械组组长的职责和意义" class="headerlink" title="第一章：机械组组长的职责和意义"></a>第一章：机械组组长的职责和意义</h1><p>&emsp;&emsp;结构与第一篇随记相同，在开头先讨论下机械组组长的职责和意义。</p><p>&emsp;&emsp;不同于队长于队内属于“万人之上，一至五人之下”的地位，机械组组长在队内的定位十分诡异。不同于另外三个技术组别，机械组本身的组内任务实在谈不上和码有关联，实际上我觉得机械设计在某些程度上和运营组的关系或许会更大一些，毕竟绝大部分<em>Coder</em>或许很难理解，为什么通常是做内容产出，在已知任务量的情况下，电控、视觉、硬件均能相对准确的给出任务完成时间，而机械组却只能给出一个大概时间，且这个时间还很有可能会被延期又延期；甚至刨去外包加工件加工周期不定、物流运输期不定这种容易理解的原因，当零件都到齐后，机械组在装车期间也很容易出现进度不定的情况。由此，倘若对内项目管理并非机械出身，机械组组长则必须代行部分项管职责；若项管为机械出身，则队伍整体进度将由队长、项管、机械组组长三人指定并主持推进。</p><p>&emsp;&emsp;在RM备赛过程中，</p>]]></content>
     
     
       
